@@ -1,0 +1,12 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="苔間 KOKEMA logo">
+  <circle cx="24" cy="24" r="23" fill="none" stroke="#5f6f57" stroke-width="1.4"/>
+  <!-- 苔玉:圓形苔球 -->
+  <circle cx="24" cy="30" r="9.5" fill="none" stroke="#8a5c40" stroke-width="1.6"/>
+  <!-- 三道苔紋 -->
+  <path d="M16 30c2.4-1.6 5-1.6 8 0s5.6 1.6 8 0" fill="none" stroke="#8a9a82" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M17 33.5c2-1.2 4.2-1.2 7 0s5 1.2 7 0" fill="none" stroke="#8a9a82" stroke-width="1.1" stroke-linecap="round"/>
+  <!-- 一株幼葉 -->
+  <path d="M24 20.5V9" fill="none" stroke="#5f6f57" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M24 13c-3.2-.4-5.6-2.4-6.4-5.4 3.2.2 5.6 2.2 6.4 5.4z" fill="#8a9a82"/>
+  <path d="M24 16.5c2.8-.6 4.8-2.6 5.4-5.4-2.8.4-4.8 2.4-5.4 5.4z" fill="#5f6f57"/>
+</svg>
