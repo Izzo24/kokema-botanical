@@ -46,6 +46,7 @@
   "publisher":{"@type":"Organization","name":"苔間 KOKEMA"}
 }
 </script>
+<link rel="stylesheet" href="./addon.css">
 </head>
 <body>
 
@@ -62,7 +63,7 @@
       <a href="./about.html">品牌故事</a>
       <a href="./care.html">養護指南</a>
       <a href="./contact.html">門市・聯絡</a>
-    </nav>
+    <a class="acct-link" href="./member.html" aria-label="會員中心"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>會員</span></a><button class="cart-toggle" type="button" aria-label="購物車" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2.4l1.6 12.4a1.5 1.5 0 0 0 1.5 1.3h8.4a1.5 1.5 0 0 0 1.5-1.2L21 8H6.4"/><circle cx="9.5" cy="20.5" r="1.2" fill="currentColor"/><circle cx="17.5" cy="20.5" r="1.2" fill="currentColor"/></svg><span class="cart-badge" aria-hidden="true">0</span></button></nav>
     <button class="nav-toggle" aria-label="開啟選單" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -196,5 +197,12 @@
 </footer>
 
 <script src="./js/main.js"></script>
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="購物車" aria-hidden="true">
+  <div class="cd-head"><h2>購物車</h2><button class="cd-close" id="cartClose" aria-label="關閉購物車"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="cd-body"><p class="cd-empty">您的購物車目前是空的。<br>歡迎先逛逛全部商品。</p></div>
+  <div class="cd-foot"><div class="cd-total"><span>小計</span><span>NT$ 0</span></div><a class="mc-btn" href="./shop.html">前往選購</a></div>
+</aside>
+<script src="./addon.js" defer></script>
 </body>
 </html>
